@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Farm</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキス">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="../../css/Main/style.css">
+    <link rel="stylesheet" href="../../css/Main/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="../../Javascript/a.js"></script>
+  </head>
+</html>
+
+<body>
+  <header>
+    <a href="index.html"><img src="../../img/logo.svg" alt=""></a>
+
+    <div id="navi">
+      <ul class="nav-menu">
+        <li><a href="../Main/index.html">Home</a></li>
+        <li><a href="../Main/OurFarm.html">Our Farm</a></li>
+        <li><a href="../Main/OnlineShop.html">Online Shop</a></li>
+        <li><a href="../Main/Contact.html">Contact</a></li>
+        <li><a href="../Login/Login.html"><img src="../../img/人物線画アイコン.jpeg" alt="" title="Login" width="39px" height="37px"></a></li>
+      </ul>
+    </div>
+    <div class="overlay"></div>
+    <nav class="nav">
+      <div class="toggle">
+        <img src="../../img/ショッピングカートのフリーアイコン7.jpeg" alt="" id="deleteconpo" class="toggler" title="Cart" width="39px" height="37px">
+      </div>
+      <div class="cart">
+        <h1>Cart</h1>
+        <div class="content">
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <div class="field">
+            <button class="btn" id="down">-</button>
+            <input type="text" value="0" class="inputText" id="textBox">
+            <button class="btn" id="up">+</button>
+          </div>
+        </div>
+        <div class="subscribe">
+          <p class="total">Total</p>
+          <button onclick="location.href='../Order/Settlement.html'" id="checkOut">Check Out</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <header>
+      <h1>ぽんぽんShopping</h1>
+      <div class="cart">
+          <div class="cart_cnt hidden">
+              <span id="js_cart_cnt">ベリー</span>
+          </div>
+        <a href="./confirm.html">カート確認画面へ</a>
+      </div>
+    </header>
+    <div id="wrapper">
+      <div class="item_wrapper">
+        <ul class="item_list">
+          <li class="item">
+            <div class="item_img">
+                <img src="./img/24754266_s.jpg" alt="">
+            </div>
+            <div class="item_textbox">
+              <div class="item_title"><h3>バームクーヘン</h3></div>
+              <div class="item_price"><span class="js_get_price">3000</span>ベリー</div>
+              <div class="item_btnarea">
+                <button class="item_cart_btn js_cart_btn" data-name="バームクーヘン" data-price="3000">カートに入れる</button>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item_img">
+                <img src="./img/C824_choko3.jpg.webp" alt="">
+            </div>
+            <div class="item_textbox">
+              <div class="item_title"><h3>チョコレート</h3></div>
+              <div class="item_price"><span class="js_get_price">2000</span>ベリー</div>
+              <div class="item_btnarea">
+                <button class="item_cart_btn js_cart_btn" data-name="チョコレート" data-price="2000">カートに入れる</button>
+              </div>
+            </div>
+          </li>
+          <!-- あとは<li class="item">を同様にいっぱい生成する  -->
+        </ul>
+      </div>
+    </div>
+    <div id="instagram">
+      <img src="../../img/instagram.png" alt="" width="35px" height="25px">
+    </div>
+  </main>
+
+  <footer id="footer">
+    <p>&copy; 2024 text</p>
+    <p>広島県広島市安佐南区祇園〇丁目〇-〇</p>
+  </footer>
+</body>

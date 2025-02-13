@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* html {
+  height: 100%;
+  width: 100%;
+} */
+
+
+h2 {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.login {
+  width: 100%;
+  margin: 10px;
+  padding: 20px; 
+  text-align: center;
+}
+
+.form {
+  width: 30%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.label {
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 110%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.SingIn {
+  width: 100%;
+}
+
+button[type="submit"] {
+  height: 50px;
+  width: 20%;
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.CreateAccount {
+  text-align: center;
+  padding-bottom: 103px;
+}
+
+#instagram {
+  text-align: center;
+  margin-bottom: 20px;
+}

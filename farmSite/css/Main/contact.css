@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+.align-center {
+  text-align: center;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  position: relative;
+}
+#main {
+  margin-bottom: 20px;
+}
+
+/*--location--*/
+#location {
+  padding: 4% 0;
+}
+#location .wrapper {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-info {
+  margin-left: 30px;
+  padding-left: 80px;
+  width: 50%;
+}
+.location-info p {
+  color: #ff9933;
+  padding: 12px 10px;
+  font-family: 'Cherry Swash', cursive;
+}
+.location-map {
+  height: 30%;
+  width: 50%;
+}
+iframe {
+  height: 350px;
+  width: 70%;
+}
+
+.row {
+  -ms-zoom: 1;
+}
+
+.row::before,
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row .col {
+  padding: 0 20px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.row .col.x-50 {
+  width: 50%;
+}
+
+.row .col.x-100 {
+  width: 100%;
+}
+
+.form {
+  height: 300px;
+  background-color: #fff;
+}
+
+.contact-form {
+  padding: 30px;
+}
+
+.contact-form .input-text-js-input{
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-bottom: 2px solid #000;
+  font-family: Lusitana, serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contact-form .form-field1 {
+  padding: 20px;
+}
+
+.contact-form .massage-text {
+  display: block;
+  width: 100%;
+  height: 100px;
+  border-width: 0 0 2px 0;
+  border-bottom: 2px solid #000;
+  font-family: Lusitana, serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+} 
+
+.contact-form .input-text-js-input:focus {
+  outline: none;
+}
+
+.contact-form .input-text-js-input:focus + .label,
+.contact-form .input-text-js-input.not-empty + .label {
+  transform: translateY(-24px);
+}
+
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-family: Lusitana, serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #888;
+  cursor: text;
+  transition: transform .2s ease-in-out;
+}
+
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #ff9933;;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 50px 0;
+  padding: 10px 18px;
+  border: none;
+  cursor: pointer;
+}
+
+#instagram {
+  text-align: center;
+  margin-bottom: 20px;
+}
